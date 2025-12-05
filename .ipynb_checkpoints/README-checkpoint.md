@@ -153,7 +153,8 @@ The third model is the most complex of all with double the batch and block sizes
 | batch_size | block_size | n_embd | n_head | n_layer |
 |:---:|:---:|:---:|:---:|:---:|
 | 64 |  256 | 384 | 6 | 4 |
-</div/
+</div>
+
 This model in general is the highest rated with about 85% of words generated are coming from the original text provided.
 
 
