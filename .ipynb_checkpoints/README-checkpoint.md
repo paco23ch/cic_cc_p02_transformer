@@ -149,10 +149,11 @@ Cimi
 ### Third Model
 The third model is the most complex of all with double the batch and block sizes, and same embedding space as the previous model, with the following settings:
 
+<div align="center">
 | batch_size | block_size | n_embd | n_head | n_layer |
 |:---:|:---:|:---:|:---:|:---:|
 | 64 |  256 | 384 | 6 | 4 |
-
+</div/
 This model in general is the highest rated with about 85% of words generated are coming from the original text provided.
 
 
