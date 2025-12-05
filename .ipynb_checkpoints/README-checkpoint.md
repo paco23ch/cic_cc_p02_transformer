@@ -48,7 +48,7 @@ The first model is very simple, using a small batch and block size, and also a s
 This model in general is able to generate a lot of giberish, but from a quick sample, about 30% of words generated are coming from the original text provided.
 
 #### Output
-'''
+```
 VIUMEFS:
 I rent bu, spers, ien; ponis andy, hat but ont bea?
 TELI: Is fit iN dot thimend you treay eobs-enrl
@@ -89,7 +89,7 @@ Iss vedith
 Bush,-
 ve:
 For aiomees, a;
-'''
+```
 
 ### Second Model
 
@@ -102,7 +102,7 @@ The second model is more complex,, using a larger  batch and block size, and als
 This model in general is able to generate better words, even if the text completely doesn't make a lot of sense from a quick sample, about 79% of words generated are coming from the original text provided.
 
 #### Output
-'''
+```
 VOLUMNIUS:
 Now in nights;
 Hath breen beneformitious to suffer me throne.
@@ -144,7 +144,7 @@ No, put the house of the wealthil.
 Shepherd:
 Away, your chardinesss
 Cimi
-'''
+```
 
 ### Third Model
 The third model is the most complex of all with double the batch and block sizes, and same embedding space as the previous model, with the following settings:
@@ -157,7 +157,7 @@ This model in general is the highest rated with about 85% of words generated are
 
 
 #### Output
-'''
+```
 Now, by this trough will make heart of those fate,
 Before ourself walks, changed and fiend, that he
 Narth purpose much more in worm.
@@ -189,7 +189,7 @@ O no staby to of descree, a noble of thy death:
 Is the coutst-or-whisty more doth,
 To be coward tex of this prince and
 Did rinkind whose deters death of Northily knifes
-'''
+```
 
 ### Results
 
