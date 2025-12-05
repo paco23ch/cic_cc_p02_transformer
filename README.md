@@ -41,9 +41,11 @@ $$acc(g) = \frac{| W_g  \cap W_v |}{| W_g |}$$
 
 The first model is very simple, using a small batch and block size, and also a small embedding space, with the following settings:
 
+<center>
 | batch_size | block_size | n_embd | n_head | n_layer |
 |:---:|:---:|:---:|:---:|:---:|
 | 8 |  4 | 64 | 4 | 3 |
+</center>
 
 This model in general is able to generate a lot of giberish, but from a quick sample, about 30% of words generated are coming from the original text provided.
 
@@ -95,9 +97,11 @@ For aiomees, a;
 
 The second model is more complex,, using a larger  batch and block size, and also creating a much larger embedding space, with the following settings:
 
+<center>
 | batch_size | block_size | n_embd | n_head | n_layer |
 |:---:|:---:|:---:|:---:|:---:|
 | 32 |  128 | 384 | 6 | 4 |
+</center>
 
 This model in general is able to generate better words, even if the text completely doesn't make a lot of sense from a quick sample, about 79% of words generated are coming from the original text provided.
 
@@ -149,9 +153,11 @@ Cimi
 ### Third Model
 The third model is the most complex of all with double the batch and block sizes, and same embedding space as the previous model, with the following settings:
 
+<center>
 | batch_size | block_size | n_embd | n_head | n_layer |
 |:---:|:---:|:---:|:---:|:---:|
 | 64 |  256 | 384 | 6 | 4 |
+</center>
 
 This model in general is the highest rated with about 85% of words generated are coming from the original text provided.
 
